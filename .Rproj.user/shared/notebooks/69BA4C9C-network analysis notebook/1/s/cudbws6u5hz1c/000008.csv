@@ -1,0 +1,4 @@
+"0","# Edge color to light grey, node/border colour to organge, show real names for the nodes"
+"0","plot(net, edge.arrow.size=.2, edge.color=""orange"","
+"0","     vertex.color = ""orange"", vertex.frame.color=""#ffffff"","
+"0","     vertex.label=V(net)$media, vertex.label.color=""black"")"

@@ -1,0 +1,2 @@
+"0","# Show two directions with curved edges"
+"0","plot(net, edge.arrow.size=.4, edge.curved=.1)"

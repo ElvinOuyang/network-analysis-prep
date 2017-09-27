@@ -1,0 +1,6 @@
+"0","# Collapse multiple links of the same type between the same two nodes"
+"0","# by summing their weights, using aggregate() by ""from"", ""to"", & ""type"":"
+"0","links <- aggregate(links[,3], by = links[,-3], FUN = sum) # aggregate ""weight"" by ""from"", ""to"", ""mention"""
+"0","links <- links[order(links$from, links$to),]"
+"0","colnames(links)[4] <- ""weight"""
+"0","rownames(links) <- NULL # Otherwise the ordered index would be the row names by default"

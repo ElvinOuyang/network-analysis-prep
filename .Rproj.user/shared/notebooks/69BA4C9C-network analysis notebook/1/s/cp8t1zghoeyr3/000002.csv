@@ -1,0 +1,4 @@
+"0","# Semantic networks to plot only the labels"
+"0","plot(net, vertex.shape=""none"", vertex.label=V(net)$media,"
+"0","     vertex.label.font=2, vertex.label.color=""gray40"", "
+"0","     vertex.label.cex=.7, edge.color=""gray85"")"

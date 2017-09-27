@@ -1,0 +1,3 @@
+"0","net <- simplify(net, remove.multiple = F, remove.loops = T)"
+"0","# Remove node label and create smaller arrows"
+"0","plot(net, edge.arrow.size=.4, vertex.label=NA)"

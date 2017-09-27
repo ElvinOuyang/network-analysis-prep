@@ -1,0 +1,4 @@
+"0","# Load data sample 2 (matrix)"
+"0","nodes2 <- read.csv(""./Data files/Dataset2-Media-User-Example-NODES.csv"", header=T, as.is=T)"
+"0","links2 <- read.csv(""./Data files/Dataset2-Media-User-Example-EDGES.csv"", header=T, row.names=1)"
+"0","head(nodes2)"
